@@ -1,0 +1,19 @@
+{
+  "name": "day3",
+  "version": "1.0.0",
+  "description": "typescript day3 homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "author": "vinh",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.0.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.1"
+  }
+}
