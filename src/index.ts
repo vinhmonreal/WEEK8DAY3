@@ -67,6 +67,7 @@ function cartTotal(user:User):number{
 }
 
 function printCart(user:User){
+    console.log("Cart: ")
     for(let i = 0; i <  user.cart.length; i++){
         console.log(user.cart[i].name); // remove .name to print all info
     }
